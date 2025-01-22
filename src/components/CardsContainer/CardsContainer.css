@@ -1,0 +1,35 @@
+.cardsContainer{
+  max-width: 500px;
+  margin: 0 auto;
+  animation: downup 1000ms;
+}
+
+/*----------(>780px)----------*/
+@media only screen and (min-width: 780px){
+  .cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    max-width: 900px;
+  }
+  .twoCards{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+}
+
+/*----------(>1175px)----------*/
+@media only screen and (min-width: 1175px){
+  .cardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+  }
+}
+
+/*----------Animations----------*/
+@keyframes downup{
+  0%{transform: translateY(500px);}
+  100%{transform: translateY(0px);}
+}
