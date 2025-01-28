@@ -1,8 +1,90 @@
-# React + Vite
+# Solución al Desafío "Four Cards Layout"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una solución para el desafío [Four Card Feature Section de Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de desarrollo web mediante proyectos realistas.
 
-Currently, two official plugins are available:
+## Tabla de Contenidos
+- [Descripción General](#descripción-general)
+  - [Captura de Pantalla](#captura-de-pantalla)
+  - [Enlaces](#enlaces)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Características](#características)
+- [Aprendizajes](#aprendizajes)
+- [Desarrollo Futuro](#desarrollo-futuro)
+- [Autor](#autor)
+- [Agradecimientos](#agradecimientos)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Descripción General
+
+### Captura de Pantalla
+![Captura del diseño Four Cards](./design/desktop-preview.jpg)
+
+### Enlaces
+- **URL del Sitio en Vivo**: [Ver sitio aquí](https://tu-enlace-en-vivo.com)
+
+---
+
+## Tecnologías Utilizadas
+- HTML5 semántico
+- CSS con propiedades personalizadas
+- Flexbox y CSS Grid
+- [React](https://reactjs.org/) - Biblioteca para interfaces de usuario
+- Flujo de trabajo basado en **Mobile First**
+
+---
+
+## Características
+- Diseño completamente responsive para dispositivos móviles y escritorio.
+- Componentes React modulares (Header, Footer, CardContainer, Card, etc.).
+- Estructura CSS limpia y reutilizable utilizando la metodología BEM.
+- Mejores prácticas en diseño web responsive.
+
+---
+
+## Aprendizajes
+En este proyecto, reforcé los siguientes conceptos:
+- **Componentización en React**: Dividir la interfaz en componentes pequeños y reutilizables (por ejemplo, Header, Footer, Cards).
+- **CSS Grid y Flexbox**: Combinar ambas técnicas para lograr un diseño adaptable.
+- **Convención de Nombres BEM**: Mantener una estructura de clases CSS clara y consistente.
+- **Flujo de trabajo con Git**: Gestionar ramas (por ejemplo, `dev` y `main`) y realizar commits estructurados.
+
+### Ejemplo de Código
+Aquí tienes un ejemplo de cómo modularicé un componente en React:
+
+```jsx
+export default function Header() {
+  return (
+    <header className="header">
+      <h1 className="header-title">Entrega confiable y eficiente</h1>
+      <h2 className="header-subtitle">Impulsada por la tecnología</h2>
+      <p className="header-text">
+        Nuestras herramientas impulsadas por Inteligencia Artificial usan millones de datos para garantizar el éxito de tu proyecto.
+      </p>
+    </header>
+  );
+}
+```
+
+# Autor
+- **Perfil en Frontend Mentor**: [Lenta, Maximiliano Carlos](https://www.frontendmentor.io/profile/Lenta-Maximiliano)
+- **Perfil en GitHub**: [Lenta-Maximiliano](https://github.com/Lenta-Maximiliano)
+- **LinkedIn**: [Lenta, Maximiliano Carlos](https://linkedin.com/in/Lenta-Maximiliano)
+
+## ¿Cómo Ejecutar Localmente?
+
+1. **Clona este repositorio:**
+   ```bash
+   git clone https://github.com/Lenta-Maximiliano/02-Four-Cards-FroMent.git
+
+2. **Navega a la carpeta del proyecto:**
+    ```bash
+    cd 02-Four-Cards-FroMent
+
+3. **Instala las dependencias:**
+    ```bash
+    npm install
+
+3. **Inicia el servidor de desarrollo:**
+    ```bash
+    npm run dev
