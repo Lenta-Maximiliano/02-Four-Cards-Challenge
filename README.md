@@ -21,7 +21,7 @@ Esta es una solución para el desafío [Four Card Feature Section de Frontend Me
 ![Captura del diseño Four Cards](./design/desktop-preview.jpg)
 
 ### Enlaces
-- **URL del Sitio en Vivo**: [Ver sitio aquí](https://tu-enlace-en-vivo.com)
+- **URL del Sitio en Vivo**: [Ver sitio aquí](https://02-four-cards-challenge.netlify.app)
 
 ---
 
@@ -75,7 +75,7 @@ export default function Header() {
 
 1. **Clona este repositorio:**
    ```bash
-   git clone https://github.com/Lenta-Maximiliano/02-Four-Cards-FroMent.git
+   git clone https://github.com/Lenta-Maximiliano/02-Four-Cards-Challenge.git
 
 2. **Navega a la carpeta del proyecto:**
     ```bash
