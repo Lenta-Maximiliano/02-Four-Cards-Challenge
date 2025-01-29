@@ -79,12 +79,12 @@ export default function Header() {
 
 2. **Navega a la carpeta del proyecto:**
     ```bash
-    cd 02-Four-Cards-FroMent
+    cd 02-Four-Cards-Challenge
 
 3. **Instala las dependencias:**
     ```bash
     npm install
 
-3. **Inicia el servidor de desarrollo:**
+4. **Inicia el servidor de desarrollo:**
     ```bash
     npm run dev
